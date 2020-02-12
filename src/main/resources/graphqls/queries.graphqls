@@ -1,0 +1,4 @@
+type Query {
+    recipes(filter: RecipeFilter): [Recipe]
+}
+

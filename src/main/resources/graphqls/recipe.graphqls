@@ -1,0 +1,9 @@
+type Recipe {
+   id: Int
+   name: String
+}
+
+input RecipeFilter {
+    id: Int
+    name: String
+}
